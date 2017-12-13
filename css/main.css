@@ -1,1 +1,12 @@
 /* Los estilos de tu proyecto */
+.navbar-header span{
+    background-color:gray;
+}
+
+.navbar-header button{
+    border: 1px solid gray;
+}
+
+.list li>a{
+    color:#000;
+}
