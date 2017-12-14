@@ -37,6 +37,11 @@
     background-color: #fff;
 }
 
+.white-font{
+    color: #fff;
+    font-weight: 500;
+}
+
 .image-info{
     background-color: #f7b617;
     color:#fff;
@@ -85,8 +90,26 @@
     margin-left: 20px;
 }
 
+.conduce-image{
+    background-image: url(../assets/images/conduce.jpg);
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-conductor{
+    background: rgba(0, 0, 0, 0.5);
+    height: 360px;
+    padding: 70px 20px;
+}
+
+.button-conductor{
+    border: none;
+}
+
 @media (min-width: 768px) {
    .position{
-       float: right;
+      float: right;
    }
 }
