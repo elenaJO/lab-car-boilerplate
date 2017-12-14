@@ -185,7 +185,7 @@
 }
 
 .container-app a>img{
-    width: 70%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -227,6 +227,27 @@
     margin-right: 5px;
 }
 
+
+.image-desktop-celular{
+    width: 300px;
+}
+
+.desktop-celular{
+    border: 1px solid #fff;
+    border-left: none;
+    height: 400px;
+    padding: 10px;
+    padding-top: 35px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-celular{
+ font-size:2rem;
+ font-weight: 700;
+}
+
 @media (min-width: 768px) {
    .position{
       float: right;
@@ -235,10 +256,18 @@
    .mobile-info{
        display: none;
    }
+
+   .mobile-celular{
+       display: none;
+   }
 }
 
 @media (max-width: 768px){
     .destok-info{
+        display: none;
+    }
+
+    .desktop-celular{
         display: none;
     }
 }
