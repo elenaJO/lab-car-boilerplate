@@ -181,15 +181,64 @@
 
 .container-app{
   overflow: auto;
-
+  width: 60%;
 }
 
 .container-app a>img{
-    width: 90%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.none{
+    display: none;
+}
+
+/* destok */
+
+.hr-info::before{
+    content:" ";
+    background-color:#fff;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    margin-right: 60px;
+}
+
+.hr-info::after{
+    content:" ";
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    margin-left: 60px;
+}
+
+.paragraphs-hero{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.paragraphs-hero-small{
+    font-size: 2rem;
+    position: relative;
+    bottom: 8px;
+    margin-right: 5px;
 }
 
 @media (min-width: 768px) {
    .position{
       float: right;
    }
+
+   .mobile-info{
+       display: none;
+   }
+}
+
+@media (max-width: 768px){
+    .destok-info{
+        display: none;
+    }
 }
