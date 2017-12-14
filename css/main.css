@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
   }
   
 
@@ -19,14 +20,17 @@
     color:#000;
 }
 
+.list li{
+   text-align: center;
+}
+
 .image-big{
     margin-top: 20px;
     background-image: url(../assets/images/taxi.jpg);
-    height: 550px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
 
 .white{
@@ -51,10 +55,38 @@
 
 .image-info button{
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .align{
     top:50%;
     position: relative;
     transform: translateY(-50%);
+}
+
+.image-mobile{
+    outline: 1px solid #fff;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-mobile img {
+    width: 250px;
+}
+
+.yellow{
+    background-color: #f7b617;
+}
+
+.text-margin{
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+   .position{
+       float: right;
+   }
 }
