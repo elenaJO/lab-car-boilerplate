@@ -303,6 +303,37 @@
    font-weight: 500;
 }
 
+.account{
+    width: 100%;
+    background-color: #000;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.input-registrate{
+    display: inline-block;
+    width: 49.5%;
+}
+
+.submit-registrate{
+    background-color: #2086C6 ;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.submit-down{
+   background-color: #FDA870;
+   width: 100%;
+   padding: 10px;
+   font-weight: 700;
+   
+}
+
 @media (min-width: 768px) {
    .position{
       float: right;

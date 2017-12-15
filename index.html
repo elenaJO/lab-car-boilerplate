@@ -55,7 +55,7 @@
                         <p class="paragraphs-hero">Eres dueño de tu tiempo</p>
                         <div>
                           <p><span class="paragraphs-hero-small">Viaja con</span><img src="assets/images/logoBlanco.png" alt="" class="logo-info"></p>
-                          <button class="btn btn-default" type="submit" data-toggle="modal">REGISTRATE</button>
+                          <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#window-registrate">REGISTRATE</button>
                           <div class="container-span margin">
                               <span class="hr-info">O bien</span>
                           </div>
@@ -263,7 +263,47 @@
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="modal fade" id="window-registrate">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-body center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button class="btn btn-default account" type="submit">Ya tienes una cuenta?</button>
+                <p>O CREA UNA NUEVA CUENTA</p>
+                <form>
+                    <div class="form-group">
+                      <label class="sr-only">Nombre</label>
+                      <input type="text" class="form-control input-registrate" placeholder="Nombre">
+                      <label class="sr-only">Apellido</label>
+                      <input type="text" class="form-control input-registrate" placeholder="Apellido">
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Correo electronico</label>
+                      <input type="email" class="form-control" placeholder="Correo electronico: ejemplo@correo.mx">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Telefono</label>
+                        <input type="email" class="form-control" placeholder="Correo electronico: ejemplo@correo.mx">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Contraseña</label>
+                        <input type="password" class="form-control" placeholder="Correo electronico: ejemplo@correo.mx">
+                    </div>                    
+                    <div class="form-group">
+                        <label class="sr-only">Ciudad</label>
+                        <input type="password" class="form-control" placeholder="Ciudad">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">(Opcional) Codigo de invitación</label>
+                        <input type="password" class="form-control" placeholder="(Opcional) Codigo de invitación">
+                    </div>                                              
+                  </form>
+                  <button class="btn btn-default block submit-down" type="submit">Como te enteraste de nosotros? <span class="glyphicon glyphicon-menu-down"></span></button>
+                  <button class="btn btn-default block submit-registrate" type="submit">ENVIAR</button>
+              </div>
+          </div>
+        </div>
       </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
