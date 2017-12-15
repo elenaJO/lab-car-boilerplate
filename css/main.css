@@ -334,6 +334,11 @@
    
 }
 
+.dark-font{
+  color:#024E78 ;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
    .position{
       float: right;
