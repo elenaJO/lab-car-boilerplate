@@ -34,7 +34,7 @@
                     <a href="#about">Conduce</a>
                   </li>
                   <li>
-                    <a href="#contact">Inicia Sesion</a>
+                    <a href="#window-sesion" data-toggle="modal">Inicia Sesion</a>
                   </li>
                 </ul>
               </div>
@@ -55,7 +55,7 @@
                         <p class="paragraphs-hero">Eres dueño de tu tiempo</p>
                         <div>
                           <p><span class="paragraphs-hero-small">Viaja con</span><img src="assets/images/logoBlanco.png" alt="" class="logo-info"></p>
-                          <button class="btn btn-default" type="submit">REGISTRATE</button>
+                          <button class="btn btn-default" type="submit" data-toggle="modal">REGISTRATE</button>
                           <div class="container-span margin">
                               <span class="hr-info">O bien</span>
                           </div>
@@ -235,6 +235,36 @@
          </div>
         </div>
       </footer>
+      <!-- modales -->
+      <div class="modal fade" id="window-sesion">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </div>
+            <div class="modal-body">
+              <div class="container-form-sesion center">
+                  <form>
+                      <div class="input-group">
+                          <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                          <input type="text" class="form-control" id="exampleInputAmount" placeholder="Username">
+                      </div>
+                      <br>
+                      <div class="input-group">
+                          <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                          <input type="password" class="form-control" id="exampleInputAmount" placeholder="Password">
+                      </div>
+                      <br>
+                      <button class="btn btn-default" type="submit">LOGING</button>
+                      <p>Forgot password? <a href="">Click here</a></p>
+                 </form>
+              </div>   
+            </div>
+          </div>
+        </div>
+
+      </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>

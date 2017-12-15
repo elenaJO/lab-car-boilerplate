@@ -273,6 +273,36 @@
 .block{
     display: block;
 }
+
+/* modal */
+
+.fa-user-circle::before{
+    color:#06B5C8 ;
+    font-size: 8rem;
+}
+
+.container-form-sesion{
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #D7D4D2;
+}
+
+.container-form-sesion button{
+    background-color: #2086C6 ;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container-form-sesion p{
+    margin-top: 5px;
+}
+
+.container-form-sesion p a{
+   color: #F7474D;
+   font-weight: 500;
+}
+
 @media (min-width: 768px) {
    .position{
       float: right;
