@@ -113,34 +113,31 @@
           <div class="row">
             <div class="col-xs-12 col-md-6 col-sm-4">
               <div class="container-map">
-                  <p>Tarifas</p>
-                  <p>Consultas las tarifas LabCar aqui</p>
-                  <div class="row">
-                    <div class="col-xs-2 center">
-                      <img src="assets/images/shape.png" alt="">
-                    </div>
-                    <div class="col-xs-10">
-                      <p class="paragraphs-map">Insurgentes Centro,Cuauhtémoc,Ciudad de Mexico</p>
-                    </div>
+                <h1>Tarifas</h1>
+                <p>Consulta las tarifas LabCar aqui</p>
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="puntoPartida" class="glyphicon glyphicon-record"></label>
+                    <input id="puntoPartida" type="text" class="form-control input-partida" placeholder="Ingrese su punto de partia">
                   </div>
-                  <div class="row">
-                    <div class="col-xs-2 center">
-                        <img src="assets/images/shape2.png" alt="">
-                    </div>
-                    <div class="col-xs-10">
-                      <p class="paragraphs-map">Carolina, Ciudad de los deportes, Ciudad de Mexico</p>
-                    </div>
+                  <div class="form-group">
+                    <label for="puntoDestino" class="glyphicon glyphicon-send"></label>
+                    <input id="puntoDestino" type="text" class="form-control input-destino" placeholder="Ingrese su destino">
                   </div>
-                  <div class="center">
-                      <button class="btn btn-default button-map" type="submit">TRAZAR RUTA ¡</button>
+                  <div class="form-group">
+                    <button id= "trazarRuta" type="submit" class="btn btn-default col-md-offset-3 col-xs-offset-3">¡Trazar ruta!</button>
+                    <div id="calcTarifa" class="col-md-offset-3"></div>
                   </div>
+                </form>
+              </div>
+              </div>
+              <div class="col-xs-12 col-md-6 col-sm-8">
+                <div class="container-map-graffy">
+                  <div class="map" id="map"></div>
+                </div>
               </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-sm-8">
-              <div class="container-map-graffy">
-                <div class="map-1"></div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -359,9 +356,11 @@
           </div>
         </div>      
     </main>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYezvZfBcThUhrpyzfW_xRVj-aljaRvNw&callback=initMap&libraries=places"
+    type="text/javascript"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>  
+    <script type="text/javascript" src = "js/app.js"></script>
 </body>
 </html>

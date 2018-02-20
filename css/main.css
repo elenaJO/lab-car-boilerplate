@@ -127,6 +127,7 @@
     margin-top: 40px;
     color: #fff;
     font-weight: 500;
+    margin-left: 60px;
 }
 
 .paragraphs-map{
@@ -340,6 +341,19 @@
   font-weight: 700;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.input-partida, .input-destino{
+    background: none;
+    border: 1px solid #fff;
+    width: 70%;
+    display: inline-block;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
    .position{
       float: right;
@@ -373,6 +387,10 @@
 }
 
 @media (max-width: 768px){
+    .container-map{
+        margin-left: 0px;
+    }
+
     .destok-info{
         display: none;
     }
