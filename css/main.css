@@ -347,11 +347,16 @@
 }
 
 .input-partida, .input-destino{
-    background: none;
     border: 1px solid #fff;
     width: 70%;
     display: inline-block;
-    color: #fff;
+    border:none;
+}
+
+.tarifa {
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
 }
 
 @media (min-width: 768px) {
