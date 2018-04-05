@@ -1,5 +1,5 @@
 # LabCar
-LabCar es una página web responsive, en lo cual te permite encontrar un taxi para tus viajes placenteros o convertirte en un conductor.
+LabCar es una página web responsive, en lo cual te permite encontrar un taxi para tus viajes placenteros ,convertirte en un conductor y ver el costo de tus rutas.
 
 ![desktop](https://user-images.githubusercontent.com/32310087/36342529-29f3ee82-13ce-11e8-820a-a457ea515aeb.PNG)
 
